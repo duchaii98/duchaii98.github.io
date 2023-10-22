@@ -1,0 +1,484 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+p {
+  margin-bottom: 0.8em;
+}
+@media only screen and (min-width: 1025px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 60% 40%;
+    background-color: #0000ff;
+    height: 740px;
+  }
+  .row {
+    background-color: #0000ff;
+  }
+  /* css goal */
+  .goal {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    gap: 15px 0px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 10px;
+  }
+  .head2 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 22px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .head1 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .head {
+    color: #0000ff;
+    grid-column: 1/3;
+    padding-top: 10px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .collor {
+    background-color: #f0f8ff;
+  }
+  .team {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* css team */
+  .grid2 {
+    display: grid;
+    grid-template-rows: 19% 27% 27% 27%;
+    grid-template-columns: 30% 70%;
+    height: 100%;
+  }
+
+  .icon1 {
+    justify-self: center;
+    font-size: 20px;
+    padding-top: 12px;
+  }
+
+  #layout {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  /* css time */
+  .cot {
+    grid-row: 1/3;
+    grid-column: 3/4;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  /* css Primary */
+  .grid3 {
+    display: grid;
+    grid-template-rows: 34% 33% 33%;
+    grid-template-columns: 30% 70%;
+    height: 200px;
+  }
+  .grid3 p {
+    line-height: 1.5em;
+  }
+  .icon2 {
+    justify-self: center;
+    font-size: 20px;
+  }
+  .grid4 {
+    display: grid;
+    grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 30% 70%;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  /* css scopes */
+  .grid5 {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+  }
+  .grid5 p {
+    line-height: 1.5em;
+  }
+  .so {
+    display: inline-block;
+    background-color: #9e88ff;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 50%;
+    border: 2px solid black;
+    vertical-align: middle;
+
+    text-align: center;
+  }
+  .style {
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .so1 {
+    justify-self: center;
+    padding-top: 20px;
+  }
+  .bor {
+    border-bottom: 2px dashed #c6e8ef;
+    align-self: center;
+  }
+  .out {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .scopes {
+    margin-left: 12px;
+    margin-right: 26px;
+  }
+  .heigh {
+    height: 257px;
+  }
+  .heigh1 {
+    height: 700px;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+  .grid {
+    background-color: #0000ff;
+    width: 100%;
+    height: 1900px;
+    display: grid;
+  }
+
+  /* css goal */
+  .goal {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+  }
+  .head2 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 22px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .head1 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .head {
+    color: #0000ff;
+    grid-column: 1/3;
+    padding-top: 10px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .collor {
+    background-color: #f0f8ff;
+  }
+  .team {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* css team */
+  .grid2 {
+    display: grid;
+    grid-template-rows: 19% 27% 27% 27%;
+    grid-template-columns: 30% 70%;
+    height: 300px;
+  }
+
+  .icon1 {
+    justify-self: center;
+    font-size: 20px;
+    padding-top: 12px;
+  }
+  #layout {
+    margin-left: 16px;
+    margin-top: 22px;
+    margin-right: 22px;
+    width: auto;
+  }
+  #layout1 {
+    margin-left: 16px;
+    margin-top: 22px;
+    margin-right: 22px;
+    width: auto;
+  }
+  .icon2 {
+    justify-self: center;
+    font-size: 20px;
+  }
+  /* <!-- css primary --> */
+  .grid3 {
+    display: grid;
+    grid-template-rows: 34% 33% 33%;
+    grid-template-columns: 30% 70%;
+    height: 200px;
+  }
+  /* css time */
+  .grid4 {
+    display: grid;
+    grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 30% 70%;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  /* css scopes */
+  .grid5 {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+  }
+  .so {
+    display: inline-block;
+    background-color: #9e88ff;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 50%;
+    border: 2px solid black;
+    vertical-align: middle;
+
+    text-align: center;
+  }
+  .style {
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .so1 {
+    justify-self: center;
+    padding-top: 20px;
+  }
+  .bor {
+    border-bottom: 2px dashed #c6e8ef;
+    align-self: center;
+  }
+  .out {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .scopes {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .collor1 {
+    background-color: #0000ff;
+    width: 100%px;
+    height: 825px;
+  }
+  .heigh {
+    height: auto;
+  }
+  .heigh1 {
+    height: 780px;
+    margin-bottom: 22px;
+
+    width: 380px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .grid {
+    background-color: #0000ff;
+    width: 100%;
+    display: grid;
+    height: 1930px;
+  }
+
+  .row {
+    background-color: #0000ff;
+  }
+  /* css goal */
+  .goal {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    gap: 15px 0px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 10px;
+  }
+  .head2 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 22px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .head1 {
+    color: #0000ff;
+    grid-column: 1/3;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .head {
+    color: #0000ff;
+    grid-column: 1/3;
+    padding-top: 10px;
+    border-bottom: 2px solid rgba(209, 209, 209, 0.868);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .collor {
+    background-color: #f0f8ff;
+  }
+  .team {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /* css team */
+  .grid2 {
+    display: grid;
+    grid-template-rows: 19% 27% 27% 27%;
+    grid-template-columns: 30% 70%;
+    height: 100%;
+  }
+
+  .icon1 {
+    justify-self: center;
+    font-size: 20px;
+    padding-top: 12px;
+  }
+
+  #layout {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: auto;
+    margin-right: 20px;
+  }
+  /* css time */
+  .cot {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .collor1 {
+    background-color: #0000ff;
+    width: 100%px;
+    height: 725px;
+  }
+  /* css Primary */
+  .grid3 {
+    display: grid;
+    grid-template-rows: 34% 33% 33%;
+    grid-template-columns: 30% 70%;
+    height: 200px;
+  }
+  .grid3 p {
+    line-height: 1.5em;
+  }
+  .icon2 {
+    justify-self: center;
+    font-size: 20px;
+  }
+  .grid4 {
+    display: grid;
+    grid-template-rows: 10% 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 30% 70%;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  /* css scopes */
+  .grid5 {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 50% 50%;
+    gap: 15px;
+  }
+  .grid5 p {
+    line-height: 1.5em;
+  }
+  .so {
+    display: inline-block;
+    background-color: #9e88ff;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 50%;
+    border: 2px solid black;
+    vertical-align: middle;
+
+    text-align: center;
+  }
+  .style {
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .so1 {
+    justify-self: center;
+    padding-top: 20px;
+  }
+  .bor {
+    border-bottom: 2px dashed #c6e8ef;
+    align-self: center;
+  }
+  .out {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .scopes {
+    margin-left: 12px;
+    margin-right: 26px;
+  }
+  .heigh {
+    height: 257px;
+  }
+  .heigh1 {
+    height: 700px;
+  }
+}
